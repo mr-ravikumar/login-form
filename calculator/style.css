@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: rgb(82, 98, 127);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    position: absolute;
+    z-index: 9;
+    margin-left: 41.5%;
+    background-color: rgb(82, 98, 127);
+    font-size: 50px;
+    font-style: bold;
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: rgb(16, 7, 73);
+    height: 80%;
+    width: 30%;
+    border-radius: 20px;
+    
+}
+
+.upper-part{
+    height: 35%;
+    width: 100%;
+    border: 5px solid rgb(50, 58, 110);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lower-part{
+    height: 65%;
+    width: 100%;
+    border-bottom: 10px solid rgb(50, 58, 110);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeric-pad{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p";
+}
+
+.keys-botton{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    user-select: none;
+}
+
+.keys-botton:hover{
+    background-color: gray;
+    color:white;
+    transition: 0.2s;
+    scale: 1.1;
+    font-style: bold    ;
+}
+
+#seven{
+    grid-area: a;
+}
+
+#eight{
+    grid-area: b;
+}
+
+#nine{
+    grid-area: c;
+}
+
+#divid{
+    grid-area: d;
+}
+
+#four{
+    grid-area: e;
+}
+
+#five{
+    grid-area: f;
+}
+
+#six{
+    grid-area: g;
+}
+
+#multiply{
+    grid-area: h;
+}
+
+#one{
+    grid-area: i;
+}
+
+#two{
+    grid-area: j;
+}
+
+#three{
+    grid-area: k;
+}
+
+#minus{
+    grid-area: l;
+}
+
+#zero{
+    grid-area: m;
+}
+
+#point{
+    grid-area: n;
+}
+
+#equal{
+    grid-area: o;
+}
+
+#plus{
+    grid-area: p;
+}
+
+.result-container {
+    height: 20%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    font-size: 25px;
+}
+
+.enter-number-container{
+    height: 20%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    font-size: 25px;
+}
+
