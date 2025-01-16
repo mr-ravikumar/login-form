@@ -1,8 +1,9 @@
-# MERN_PROJECTS
+# Form
 
 Description:
-Welcome to the MERN Stack Development projects repository! This repository contains all the code samples, and projects covered.
+Welcome to this repository! This repository contains all the code samples.
 
 Join us anywhere :)<br/>
 LinkedIn: https://www.linkedin.com/in/mrravikumar<br/>
+Twitter / X : https://www.x.com/mrravikumar0
 E-mail: ravikumar848700@gmail.com
