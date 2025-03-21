@@ -3,8 +3,6 @@
 Description:
 Welcome to this repository! This repository contains all the code samples.
 
-## Author
-
 ## Connect with Me
 - 🔗 LinkedIn: [mrravikumar](https://www.linkedin.com/in/mrravikumar)
 - 🔗 Portfolio: [mrravikumar.com](https://www.mrravikumar.com)
